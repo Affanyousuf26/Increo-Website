@@ -1,0 +1,28 @@
+---
+import { navigation } from "../../data/navigation";
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="shell">
+    <div class="site-footer__top">
+      <div>
+        <a class="wordmark wordmark--footer" href="#home"><span class="wordmark__mark">I</span><span>INCREO</span></a>
+        <p>Advanced aerospace and autonomous systems engineering.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <p>Navigate</p>
+        {navigation.map((item) => <a href={item.href}>{item.label}</a>)}
+      </nav>
+      <div>
+        <p>Legal</p>
+        <a href={`${import.meta.env.BASE_URL}privacy/`}>Privacy policy</a>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© {year} Increo</span>
+      <span>Engineered in India</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </div>
+</footer>

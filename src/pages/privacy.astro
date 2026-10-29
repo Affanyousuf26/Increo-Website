@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const title = "Privacy Notice | Increo";
+const description = "Privacy notice for the Increo website.";
+---
+
+<BaseLayout {title} {description}>
+  <main class="legal-page" id="main-content">
+    <a class="legal-page__back" href={import.meta.env.BASE_URL}>← Increo</a>
+    <p class="section-index">LEGAL / DRAFT FOR REVIEW</p>
+    <h1>Privacy notice</h1>
+    <p class="legal-page__lead">This page provides the structure for Increo’s privacy notice. Final legal language, contact details, retention periods, and jurisdictional requirements must be reviewed and approved before public launch.</p>
+    <section>
+      <h2>Information submitted through the inquiry form</h2>
+      <p>The website’s inquiry form requests a name, business email, inquiry category, message, and optionally an organization. This information is intended only for responding to the submitted business inquiry.</p>
+    </section>
+    <section>
+      <h2>Third-party form processing</h2>
+      <p>When configured, form submissions are processed by Formspree. Their privacy terms should be reviewed before the form is enabled for production use.</p>
+    </section>
+    <section>
+      <h2>Details requiring company approval</h2>
+      <ul>
+        <li>Privacy contact information</li>
+        <li>Data retention and deletion periods</li>
+        <li>Applicable legal basis and jurisdiction</li>
+        <li>Final third-party service disclosures</li>
+      </ul>
+    </section>
+  </main>
+</BaseLayout>

@@ -1,0 +1,24 @@
+---
+import SectionHeading from "../ui/SectionHeading.astro";
+import { products } from "../../data/products";
+---
+
+<section class="section products" id="products" aria-labelledby="products-heading">
+  <div class="shell">
+    <SectionHeading index="04" label="Product line" title="Systems built around the mission." headingId="products-heading" />
+    <div class="product-line">
+      {products.map((product) => (
+        <article class="product-panel" data-reveal>
+          <div class="product-panel__index"><span>{product.index}</span><span>{product.code}</span></div>
+          <div class="product-panel__content">
+            <p>{product.category}</p>
+            <h3>{product.name}</h3>
+            <strong>{product.descriptor}</strong>
+            <ul>{product.features.map((feature) => <li>{feature}</li>)}</ul>
+          </div>
+        </article>
+      ))}
+    </div>
+    <p class="product-note">Specifications and stated capabilities are sourced from the Increo pitch deck. Product imagery and final publication claims remain subject to company approval.</p>
+  </div>
+</section>

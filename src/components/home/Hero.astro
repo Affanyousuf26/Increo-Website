@@ -1,0 +1,57 @@
+---
+import { Image } from "astro:assets";
+import heroImage from "../../assets/increo-concept-uas.png";
+---
+
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <Image
+    class="hero__image"
+    src={heroImage}
+    alt="Conceptual unmanned aerial system flying above mountains at predawn"
+    widths={[768, 1280, 1983]}
+    sizes="100vw"
+    format="webp"
+    quality={88}
+    loading="eager"
+    fetchpriority="high"
+  />
+  <div class="hero__veil"></div>
+  <div class="technical-grid" aria-hidden="true"></div>
+  <div class="hero-frame" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+  <div class="hero__content shell">
+    <div class="hero__eyebrow" data-hero-item>
+      <span>IND / AEROSPACE SYSTEMS</span>
+      <span>28.6139° N — 77.2090° E</span>
+    </div>
+    <div class="hero__main">
+      <div class="hero__title-lockup">
+        <span class="hero__section-no" aria-hidden="true">01</span>
+        <h1 id="hero-title">
+          <span class="hero-line"><span>Pushing technology</span></span>
+          <span class="hero-line hero-line--outline"><span>beyond what exists.</span></span>
+        </h1>
+      </div>
+      <div class="hero__lower" data-hero-item>
+        <p>Intelligent unmanned systems. Resilient technologies. Mission-focused engineering.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#resilience">Explore resilience <span>↓</span></a>
+          <a class="button button--ghost" href="#contact">Partner with us <span>↗</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__footer" data-hero-item>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about Increo"><span></span>Scroll to discover</a>
+      <aside class="hero-telemetry" aria-label="Concept visualization details">
+        <div><span>VIS</span><strong>Concept</strong></div>
+        <div><span>SYS</span><strong>Unmanned</strong></div>
+        <div><span>FOCUS</span><strong>Resilience</strong></div>
+      </aside>
+      <div class="hero__caption">
+        <span>Conceptual visualization</span>
+        <span>Platform shown is not a production claim</span>
+      </div>
+    </div>
+  </div>
+</section>

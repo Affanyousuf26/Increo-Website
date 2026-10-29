@@ -1,0 +1,53 @@
+---
+import SectionHeading from "../ui/SectionHeading.astro";
+import { resilienceLayers } from "../../data/resilience";
+---
+
+<section class="section resilience" id="resilience" aria-labelledby="resilience-heading">
+  <div class="shell">
+    <SectionHeading index="03" label="The solution" title="4-layer resilience stack." headingId="resilience-heading" />
+    <div class="resilience__intro" data-reveal>
+      <p>Each layer adds resilience.<br /><strong>Together, they ensure mission continuity.</strong></p>
+      <span class="resilience__status"><i></i> Integrated system architecture</span>
+    </div>
+
+    <div class="resilience-stage">
+      <div class="resilience-visual" data-resilience-visual data-reveal aria-hidden="true">
+        <div class="resilience-visual__grid"></div>
+        <div class="resilience-visual__scan"></div>
+        <div class="system-orbit system-orbit--4" data-resilience-ring="3"><span>04</span></div>
+        <div class="system-orbit system-orbit--3" data-resilience-ring="2"><span>03</span></div>
+        <div class="system-orbit system-orbit--2" data-resilience-ring="1"><span>02</span></div>
+        <div class="system-orbit system-orbit--1 is-active" data-resilience-ring="0"><span>01</span></div>
+        <div class="system-core">
+          <span>MISSION</span>
+          <strong>CONTINUITY</strong>
+          <small>4 / 4 LAYERS</small>
+        </div>
+        <div class="system-readout system-readout--top"><span>STACK STATUS</span><strong>INTEGRATED</strong></div>
+        <div class="system-readout system-readout--bottom"><span>ACTIVE LAYER</span><strong data-active-layer>CONTROL CORE</strong></div>
+      </div>
+
+      <div class="resilience-list">
+        {resilienceLayers.map((layer, index) => (
+          <article class:list={["resilience-layer", { "is-active": index === 0 }]} data-resilience-layer={index} tabindex="0">
+            <div class="resilience-layer__rail" aria-hidden="true"><span></span></div>
+            <div class="resilience-layer__top">
+              <span>{layer.index}</span>
+              <span>{layer.code}</span>
+            </div>
+            <div class="resilience-layer__content">
+              <p>{layer.purpose}</p>
+              <h3>{layer.name}</h3>
+              <div class="resilience-layer__details">
+                <small>{layer.architecture}</small>
+                <ul>{layer.elements.map((element) => <li>{element}</li>)}</ul>
+              </div>
+            </div>
+            <span class="resilience-layer__arrow" aria-hidden="true">↗</span>
+          </article>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

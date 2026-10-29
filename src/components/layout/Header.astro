@@ -1,0 +1,31 @@
+---
+import { navigation } from "../../data/navigation";
+---
+
+<header class="site-header" data-header>
+  <a class="wordmark" href="#home" aria-label="Increo home">
+    <span class="wordmark__mark" aria-hidden="true">I</span>
+    <span>INCREO</span>
+  </a>
+
+  <nav class="desktop-nav" aria-label="Primary navigation">
+    {navigation.map((item) => <a href={item.href}>{item.label}</a>)}
+  </nav>
+
+  <a class="header-cta" href="#contact">Start a conversation <span aria-hidden="true">↗</span></a>
+
+  <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+    <span></span><span></span>
+  </button>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true" data-mobile-menu>
+    <nav aria-label="Mobile navigation">
+      {navigation.map((item, index) => (
+        <a href={item.href}>
+          <span>0{index + 1}</span>{item.label}
+        </a>
+      ))}
+    </nav>
+    <p>Autonomous systems<br />Engineered in India</p>
+  </div>
+</header>

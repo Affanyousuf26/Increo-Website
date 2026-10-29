@@ -1,0 +1,1578 @@
+# INCREO DYNAMICS — COMPLETE WEBSITE DEVELOPMENT MASTER PROMPT
+
+## ROLE AND RESPONSIBILITY
+
+You are acting as a team of highly experienced professionals consisting of:
+
+- Principal Frontend Engineer
+- Senior UI/UX Designer
+- Creative Director specializing in aerospace and defence technology
+- Astro and TypeScript Architect
+- Web Performance Engineer
+- Accessibility Specialist
+- SEO Engineer
+- DevOps Engineer
+- Quality Assurance Engineer
+
+Your responsibility is to design, develop, test, optimize, and prepare the **complete official homepage for Increo Dynamics Private Limited**.
+
+You are not creating a generic landing page, a quick prototype, or a template.
+
+You are building a premium, technically sophisticated, scalable corporate website that reflects the identity of an advanced aerospace and autonomous systems engineering company.
+
+**IMPORTANT: IMPLEMENT THE COMPLETE HOMEPAGE IN THIS TASK. DO NOT STOP AFTER THE HERO SECTION. DO NOT ONLY PROVIDE A PLAN. WRITE THE ACTUAL WORKING CODE.**
+
+---
+
+# PART 1 — COMPANY BACKGROUND
+
+## 1.1 About Increo Dynamics
+
+Company Name: **Increo Dynamics Private Limited**
+
+Industry:
+- Aerospace Engineering
+- Unmanned Aerial Systems
+- Autonomous Systems
+- Defence Technology
+- Intelligent Robotics
+- Resilient Communication Systems
+- Advanced Navigation Technologies
+
+Increo Dynamics is an Indian aerospace technology company focused on developing advanced unmanned systems, intelligent autonomy, resilient communications, and integrated aerospace technologies.
+
+The company is building engineering-driven technologies for demanding operational environments.
+
+Its technology areas include:
+- Unmanned aerial platforms
+- Autonomous navigation
+- GPS-denied navigation research
+- Edge AI and onboard intelligence
+- Electronic-warfare-resilient system development
+- Communication systems
+- Modular aerospace architectures
+- Multi-agent and swarm autonomy research
+
+These are descriptions of the company's technology focus, not proof of completed or validated capabilities.
+
+Do not invent:
+- Customers
+- Government contracts
+- Military deployments
+- Certifications
+- Patents
+- Awards
+- Manufacturing capacities
+- Product readiness levels
+- Technical performance figures
+- Partnerships
+
+All publicly displayed claims must be supported by approved company information.
+
+## 1.2 Website purpose
+
+The website must achieve five objectives:
+
+1. Establish Increo Dynamics as a credible aerospace engineering company.
+2. Communicate its technology-driven identity.
+3. Showcase its unmanned systems and engineering capabilities.
+4. Attract customers, defence organizations, technology partners, and investors.
+5. Generate genuine inquiries through a functional contact form.
+
+The website must communicate engineering credibility rather than exaggerated marketing.
+
+## 1.3 Project phases
+
+### Phase 1 — Immediate development
+
+Develop the complete homepage and the minimal supporting pages required for a responsible launch, such as the Privacy Policy.
+
+The homepage must be fully functional, visually complete, responsive, optimized, and ready for deployment.
+
+### Phase 2 — Future expansion
+
+The architecture must support:
+
+- About Us
+- Platforms
+- Individual Platform Pages
+- Technologies
+- Research and Development
+- Careers
+- News and Updates
+- Contact
+- Legal Pages
+
+Do not build empty or unfinished Phase 2 pages.
+
+Design the Phase 1 components so they can be reused in Phase 2.
+
+---
+
+# PART 2 — DESIGN REFERENCE AND CREATIVE DIRECTION
+
+## 2.1 Primary reference
+
+Website: https://shield.ai/
+
+Study this website to understand the quality level expected.
+
+Analyze:
+- Hero composition
+- Typography
+- Visual hierarchy
+- Navigation
+- Section spacing
+- Cinematic imagery
+- Product storytelling
+- Background treatments
+- Transitions
+- Responsive layouts
+- Footer
+- CTA placement
+- Overall professional appearance
+
+Do not reproduce the reference website.
+
+Do not copy:
+- Source code
+- Proprietary images
+- Brand assets
+- Text
+- Exact layouts
+- Animations verbatim
+- Product illustrations
+
+Use it as inspiration for visual quality and storytelling.
+
+If the reference website cannot be accessed, continue using the design specification in this prompt. Do not block implementation.
+
+## 2.2 Creative direction
+
+The desired design is:
+
+**TECHNICAL + FUTURISTIC + MINIMAL + PREMIUM + AEROSPACE**
+
+The website should feel like the digital presence of a company engineering next-generation autonomous systems.
+
+The aesthetic should communicate:
+- Precision
+- Engineering
+- Reliability
+- Intelligence
+- Innovation
+- Sophistication
+- Mission readiness
+
+Think of a premium aerospace corporate website combined with the precision of an advanced engineering interface.
+
+However, it must remain a professional business website, not a video game interface.
+
+## 2.3 Visual philosophy
+
+Use:
+- Large typography
+- Strong alignment
+- Generous whitespace
+- Dark surfaces
+- Large product imagery
+- Fine technical grids
+- Subtle geometric patterns
+- Thin borders
+- Engineering-style labels
+- Numbered sections
+- Minimal accent colors
+- Controlled animation
+- Editorial layouts
+
+Avoid:
+- Generic SaaS cards everywhere
+- Excessive rounded corners
+- Random gradients
+- Neon cyberpunk styling
+- Glowing purple objects everywhere
+- Cartoon icons
+- Unnecessary 3D effects
+- Excessive parallax
+- Scroll-jacking
+- Cluttered layouts
+- Random stock photography
+- Generic AI-generated marketing language
+
+The design must look intentional and professionally art-directed.
+
+---
+
+# PART 3 — OFFICIAL BRAND SYSTEM
+
+## 3.1 Brand colors
+
+Use the following exact colors:
+
+Primary Purple:
+`#6f41c6`
+
+Soft Black:
+`#0f0f0f`
+
+Soft White:
+`#fafafa`
+
+These are the primary brand colors and must remain consistent throughout the website.
+
+Supporting colors may be derived for:
+- Muted text
+- Borders
+- Elevated surfaces
+- Disabled states
+- Hover states
+- Accessible contrast adjustments
+
+Suggested supporting tokens:
+
+- Raised surface: `#191919`
+- Subtle border: `#343434`
+- Muted text: `#b5b5b5`
+- Light purple accent: `#a887f1`
+
+Do not introduce unrelated prominent brand colors.
+
+Purple should be used purposefully for:
+- Primary CTAs
+- Active navigation
+- Interactive highlights
+- Small technical labels
+- Selected borders
+- Important interface details
+
+Do not make every section purple.
+
+## 3.2 Typography
+
+The project includes these font families:
+
+1. Hanson Bold
+2. Space Grotesk
+3. Minecrafter
+
+### Hanson Bold
+
+Intended usage:
+- Hero headline
+- Major section headings
+- High-impact statements
+
+The font files may be provided as:
+- Hanson-Bold.otf
+- Hanson-Bold.ttf
+
+Important: Verify that the supplied license permits commercial website embedding before using it in production.
+
+If commercial web rights are not confirmed, use Space Grotesk Bold temporarily and document the licensing requirement.
+
+### Space Grotesk
+
+Use for:
+- Navigation
+- Body paragraphs
+- Technical labels
+- Buttons
+- Forms
+- Product specifications
+- Footer
+- Supporting headings
+
+Use the variable font when possible.
+
+Space Grotesk is licensed under the SIL Open Font License.
+
+### Minecrafter
+
+Do not use Minecrafter in Phase 1.
+
+Its pixelated appearance does not suit the primary corporate identity, and the supplied license requires permission for commercial use.
+
+### Typography requirements
+
+- Self-host approved fonts.
+- Prefer WOFF2 when conversion is permitted.
+- Configure proper font loading.
+- Use font-display: swap.
+- Avoid excessive font weights.
+- Use responsive typography with CSS clamp().
+- Maintain excellent readability.
+- Avoid overly wide body text.
+- Keep consistent letter spacing.
+- Ensure headings do not overflow on mobile.
+
+## 3.3 Logo
+
+Use the official Increo Dynamics logo when supplied.
+
+Support:
+- Desktop navigation
+- Mobile navigation
+- Footer
+- Favicon
+- Social sharing assets
+
+Do not invent a logo and present it as official.
+
+If no logo exists in the repository, use a clean temporary text-based wordmark labeled as a placeholder in project documentation.
+
+Do not use the Minecrafter sample image as the company logo.
+
+---
+
+# PART 4 — TECHNOLOGY STACK
+
+Use the following stack.
+
+## 4.1 Framework
+
+Astro — current stable release.
+
+Configuration:
+- Static output
+- TypeScript strict mode
+- Component-based architecture
+- Optimized asset handling
+
+## 4.2 Styling
+
+Tailwind CSS v4.
+
+Use:
+- Centralized design tokens
+- Reusable utility patterns
+- Semantic component styling
+- Responsive utilities
+- CSS custom properties where appropriate
+
+Avoid large amounts of duplicated styling.
+
+## 4.3 JavaScript
+
+Use TypeScript.
+
+Prefer native browser functionality.
+
+Do not add complex state management.
+
+## 4.4 React
+
+React is optional.
+
+Use React islands only if an interaction genuinely benefits from React.
+
+Do not convert the entire website into a React SPA.
+
+Astro components should handle most sections.
+
+## 4.5 Animation
+
+Use:
+- GSAP for purposeful entrance and scroll-triggered animations
+- CSS for hover and simple transitions
+
+Do not add animation dependencies without a clear purpose.
+
+## 4.6 Hosting
+
+Initial hosting:
+GitHub Pages
+
+Deployment:
+GitHub Actions
+
+Future hosting compatibility:
+- Cloudflare Pages
+- Vercel
+- Netlify
+- Conventional static hosting
+
+Avoid architecture that requires server-side rendering.
+
+## 4.7 Contact form
+
+Use Formspree.
+
+No custom backend is required for Phase 1.
+
+The endpoint must be configurable.
+
+Do not invent a Formspree form ID.
+
+---
+
+# PART 5 — COMPLETE HOMEPAGE SPECIFICATION
+
+Build all eight sections.
+
+## SECTION 01 — HEADER AND NAVIGATION
+
+Create a premium, responsive navigation system.
+
+### Desktop layout
+
+- Logo aligned left
+- Navigation aligned centrally or toward the right
+- Contact CTA at the far right
+- Proper spacing and alignment
+
+Navigation items:
+
+HOME
+PLATFORMS
+TECHNOLOGIES
+ABOUT
+CONTACT
+
+During Phase 1, these should link to real homepage sections.
+
+### Header behavior
+
+At the top:
+- Transparent or minimally opaque
+- Integrated visually with the hero
+
+On scroll:
+- Subtle dark background
+- Fine bottom border
+- Smooth transition
+
+Avoid excessive blur.
+
+### Mobile navigation
+
+Create a professional mobile menu.
+
+Requirements:
+- Hamburger toggle
+- Accessible open/close states
+- Escape key support
+- Keyboard navigation
+- Correct focus management
+- Close on navigation
+- Prevent background scrolling while open
+- Correct ARIA attributes
+
+The mobile menu must not overlap or break the page.
+
+---
+
+## SECTION 02 — HERO
+
+This is the most important visual section.
+
+It must establish the identity of Increo Dynamics immediately.
+
+### Hero headline
+
+ENGINEERED FOR THE UNKNOWN.
+
+### Supporting copy
+
+Intelligent unmanned systems. Resilient technologies. Mission-focused engineering.
+
+### Primary CTA
+
+EXPLORE SYSTEMS
+
+Scroll to the Platforms section.
+
+### Secondary CTA
+
+PARTNER WITH US
+
+Scroll to the Contact section.
+
+### Hero media
+
+Use a **static high-resolution image**.
+
+Do not use video.
+
+The image should convey:
+- Advanced unmanned systems
+- Precision engineering
+- Aerospace technology
+- Premium industrial design
+
+Prioritize an actual Increo product render if supplied and approved.
+
+If unavailable, use a clearly identified conceptual image.
+
+Do not download copyrighted competitor imagery.
+
+Do not misrepresent conceptual images as real company products.
+
+### Hero layout
+
+Desktop:
+- Near full-viewport height
+- Large display headline
+- Strong image composition
+- Clear CTA hierarchy
+- Controlled negative space
+- Technical annotations
+- Subtle scroll indicator
+
+Mobile:
+- Reflow the headline
+- Use an appropriate image crop
+- Maintain readable text
+- Ensure CTAs are accessible
+- Avoid clipped images or overflow
+
+### Technical visual elements
+
+Optional:
+- Fine grid overlay
+- Small coordinate labels
+- Section index
+- Minimal corner brackets
+- Technical measurement-style lines
+
+Keep these subtle.
+
+### Hero animation
+
+On initial load:
+- Header enters gently
+- Headline reveals
+- Supporting copy appears
+- CTAs appear
+- Image reveals subtly
+
+Do not delay usability.
+
+Do not animate essential content out of visibility when JavaScript is disabled.
+
+Respect reduced-motion preferences.
+
+---
+
+## SECTION 03 — ABOUT INCREO
+
+### Suggested heading
+
+ENGINEERING AUTONOMY.
+BUILDING RESILIENCE.
+
+### Purpose
+
+Introduce the company and explain its engineering philosophy.
+
+### Suggested copy
+
+Increo Dynamics is an Indian aerospace technology company focused on the development of unmanned systems, intelligent autonomy, and resilient engineering solutions.
+
+Our approach brings together platform engineering, onboard intelligence, navigation, and communication technologies to address demanding operational requirements.
+
+Treat this as proposed marketing copy requiring approval before publication.
+
+### Layout
+
+Use an editorial two-column layout.
+
+One side:
+- Large heading
+- Small section number
+- Technical label
+
+Other side:
+- Concise description
+- Supporting engineering visual
+- Optional CTA
+
+Avoid generic corporate icon cards.
+
+Use intentional typography and whitespace.
+
+---
+
+## SECTION 04 — PLATFORMS AND SYSTEMS
+
+This section must visually showcase Increo's unmanned platform development.
+
+### Heading
+
+BUILT FOR THE MISSION.
+
+### Featured platform
+
+Sentinel ISR
+
+Category:
+Unmanned Aerial System
+
+Use an approved product render or a clearly labeled conceptual placeholder.
+
+### Additional platform categories
+
+Prepare reusable data-driven components for future platform families.
+
+Do not invent product names or specifications.
+
+Do not show unsupported platforms as commercially available.
+
+### Platform component requirements
+
+Each platform entry should support:
+
+- Name
+- Category
+- Short description
+- Image
+- Image alt text
+- Development/publication status
+- Optional approved specifications
+- Optional destination link
+
+Do not create links to pages that do not exist.
+
+### Layout
+
+Use a large featured product area with a strong visual hierarchy.
+
+Possible desktop composition:
+- Large product image
+- Product title
+- Category label
+- Description
+- Minimal technical details
+- CTA when an actual destination exists
+
+Avoid making this look like an e-commerce catalog.
+
+### Content architecture
+
+Create:
+
+`src/data/platforms.ts`
+
+Store all platform information in typed structured data.
+
+This must make future expansion easy.
+
+---
+
+## SECTION 05 — CORE TECHNOLOGIES
+
+### Heading
+
+THE TECHNOLOGY BEHIND AUTONOMY.
+
+Present four major technology areas.
+
+### Technology 01
+
+AUTONOMOUS NAVIGATION
+
+Describe research and engineering focused on intelligent navigation and operation in challenging environments.
+
+### Technology 02
+
+RESILIENT COMMUNICATIONS
+
+Describe engineering focused on reliable communication architectures for unmanned systems.
+
+### Technology 03
+
+EDGE INTELLIGENCE
+
+Describe onboard processing, perception, and intelligent decision-support technologies.
+
+### Technology 04
+
+MODULAR SYSTEMS
+
+Describe modular hardware and software architectures designed for integration and adaptability.
+
+### Visual approach
+
+Use an advanced engineering presentation.
+
+Possible elements:
+- Technical diagrams
+- Fine grid backgrounds
+- Minimal geometric illustrations
+- Numbered technology rows
+- Animated separators
+- Technical annotations
+
+Avoid four generic rounded SaaS cards unless there is a compelling design reason.
+
+### Interactions
+
+Use subtle hover and reveal effects.
+
+If expandable panels are implemented, ensure they are accessible and keyboard operable.
+
+Store content in:
+
+`src/data/technologies.ts`
+
+---
+
+## SECTION 06 — ENGINEERING PHILOSOPHY
+
+This section should create a strong visual contrast.
+
+### Background
+
+Soft White:
+`#fafafa`
+
+### Text
+
+Soft Black:
+`#0f0f0f`
+
+### Heading
+
+ENGINEERING WITH PURPOSE.
+
+### Content themes
+
+- System-level engineering
+- Reliability
+- Adaptability
+- Technical independence
+- Integrated design
+- Mission-focused development
+
+### Layout
+
+Use a premium editorial layout with:
+- Large black typography
+- Strong whitespace
+- Minimal purple accents
+- Supporting engineering imagery or geometric illustration
+
+Do not use unverified performance statistics.
+
+Do not invent manufacturing or testing achievements.
+
+The section should communicate philosophy rather than unsupported claims.
+
+---
+
+## SECTION 07 — CONTACT AND BUSINESS INQUIRY
+
+### Heading
+
+LET'S BUILD WHAT'S NEXT.
+
+### Supporting copy
+
+Connect with Increo Dynamics to discuss unmanned systems, technology collaboration, strategic partnerships, or business opportunities.
+
+### Contact form
+
+Integrate Formspree.
+
+Fields:
+
+1. Full Name — required
+2. Organization — optional
+3. Business Email — required
+4. Inquiry Type — required
+5. Message — required
+
+Inquiry categories:
+- Product Inquiry
+- Strategic Partnership
+- Investor Relations
+- General Inquiry
+
+### Validation
+
+Implement:
+- Required-field validation
+- Email validation
+- Accessible field errors
+- Message length limits
+- Submission loading state
+- Disabled submit button while submitting
+- Success state
+- Error state
+- Prevention of duplicate submissions
+
+### Security and privacy
+
+- Use HTTPS
+- Add Formspree-compatible spam protection
+- Do not expose private credentials
+- Do not collect unnecessary sensitive information
+- Include a privacy notice
+- Avoid logging form content unnecessarily
+- Configure the endpoint through a public Astro environment variable where appropriate
+
+Use an environment variable such as:
+
+`PUBLIC_FORMSPREE_ENDPOINT`
+
+This is a public form endpoint, not a secret API credential.
+
+If the endpoint is missing:
+- Do not attempt submission.
+- Do not display a false success message.
+- Provide a clear configuration requirement.
+- Keep the form visually complete for review.
+
+### Privacy
+
+Create a privacy page structure.
+
+Do not invent legal claims, retention periods, or contact details.
+
+Mark missing policy details for approval.
+
+Do not publish an incomplete privacy policy as if it were finalized.
+
+---
+
+## SECTION 08 — FOOTER
+
+Create a professional corporate footer.
+
+Include:
+- Increo Dynamics wordmark/logo
+- Short company description
+- Homepage navigation
+- Contact information when supplied
+- Privacy Policy link
+- Social media links when verified
+- Copyright notice
+
+Use the current year dynamically where appropriate.
+
+Do not create fake social profiles or contact details.
+
+Footer design:
+- Dark background
+- Strong alignment
+- Fine separators
+- Small technical labels
+- Minimal purple accents
+
+---
+
+# PART 6 — COMPONENT ARCHITECTURE
+
+Create a maintainable project structure.
+
+Suggested:
+
+increo-website/
+  public/
+    fonts/
+    images/
+    favicon.svg
+
+  src/
+    assets/
+    components/
+      layout/
+        Header.astro
+        MobileNav.astro
+        Footer.astro
+
+      home/
+        Hero.astro
+        AboutSection.astro
+        PlatformsSection.astro
+        TechnologiesSection.astro
+        PhilosophySection.astro
+        ContactSection.astro
+
+      ui/
+        Button.astro
+        SectionHeading.astro
+        TechnicalGrid.astro
+        ProductCard.astro
+
+    data/
+      navigation.ts
+      platforms.ts
+      technologies.ts
+
+    layouts/
+      BaseLayout.astro
+
+    pages/
+      index.astro
+      privacy.astro
+
+    scripts/
+      animations.ts
+
+    styles/
+      global.css
+      fonts.css
+
+  .github/
+    workflows/
+      deploy.yml
+
+  .env.example
+  astro.config.mjs
+  package.json
+  tsconfig.json
+  README.md
+  AGENTS.md
+  DESIGN_SYSTEM.md
+  CONTENT_GUIDELINES.md
+  DEPLOYMENT.md
+
+Adapt the structure if Astro best practices suggest a better organization.
+
+Do not create unnecessary files.
+
+---
+
+# PART 7 — RESPONSIVE DESIGN
+
+The website must be mobile-first.
+
+Test at:
+
+- 360px
+- 390px
+- 768px
+- 1024px
+- 1440px
+- 1920px
+
+### Mobile requirements
+
+- No horizontal overflow
+- Proper headline wrapping
+- Responsive navigation
+- Appropriate image cropping
+- Readable paragraphs
+- Touch-friendly buttons
+- Functional forms
+- Consistent spacing
+
+### Tablet requirements
+
+- Balanced section layouts
+- Appropriate typography
+- Correct navigation behavior
+- No awkward empty spaces
+
+### Desktop requirements
+
+- Strong use of screen width
+- Proper content max-width
+- Cinematic imagery
+- Consistent alignment
+- No excessively stretched paragraphs
+
+Use fluid typography and responsive spacing.
+
+Do not rely solely on fixed pixel values.
+
+---
+
+# PART 8 — ANIMATION SYSTEM
+
+Use animation to enhance visual storytelling.
+
+Not every element needs to animate.
+
+### Recommended animations
+
+Hero:
+- Staggered text reveal
+- Image reveal
+- CTA entrance
+
+Sections:
+- Subtle scroll-triggered fade and translate
+- Image reveal
+- Divider expansion
+
+Interactions:
+- Button hover
+- Navigation underline
+- Product image hover
+- Subtle technical highlights
+
+### Animation restrictions
+
+- No scroll-jacking
+- No aggressive parallax
+- No unnecessary continuous loops
+- No blocking page load
+- No animations that reduce readability
+- No excessive motion on mobile
+
+Respect:
+
+`prefers-reduced-motion: reduce`
+
+Ensure content remains accessible if JavaScript fails.
+
+---
+
+# PART 9 — PERFORMANCE OPTIMIZATION
+
+Performance is a major priority.
+
+### Targets
+
+- Lighthouse Performance: 90+ mobile
+- Lighthouse Accessibility: 95+
+- Lighthouse SEO: 95+
+- Largest Contentful Paint: below 2.5 seconds
+- Cumulative Layout Shift: below 0.1
+
+These are performance goals, not guaranteed results.
+
+### Implementation
+
+- Use Astro static rendering.
+- Minimize client-side JavaScript.
+- Optimize images.
+- Use AVIF/WebP where supported.
+- Preserve fallbacks when appropriate.
+- Serve correctly sized responsive images.
+- Avoid layout shifts.
+- Load the hero image eagerly.
+- Lazy-load below-the-fold images.
+- Use font-display: swap.
+- Preload only critical assets.
+- Avoid unnecessary third-party scripts.
+- Use proper caching where hosting allows.
+- Avoid loading React globally.
+
+Do not sacrifice visual quality unnecessarily.
+
+Balance design and performance.
+
+---
+
+# PART 10 — ACCESSIBILITY
+
+Target WCAG 2.2 AA.
+
+Implement:
+- Semantic HTML
+- Correct heading hierarchy
+- Accessible navigation
+- Keyboard functionality
+- Visible focus indicators
+- Sufficient text contrast
+- Meaningful alt text
+- Accessible form labels
+- Form error announcements
+- Reduced-motion support
+- Appropriate touch targets
+- Skip-to-content link
+
+Do not use ARIA where native HTML already provides correct semantics.
+
+Test with automated tools where available.
+
+Perform manual keyboard checks.
+
+---
+
+# PART 11 — SEO AND METADATA
+
+Implement production-quality SEO.
+
+### Homepage title
+
+Increo Dynamics | Autonomous Systems & Aerospace Engineering
+
+### Suggested meta description
+
+Increo Dynamics develops unmanned aerial systems, intelligent autonomy, resilient communications, and advanced aerospace technologies.
+
+### Required metadata
+
+- Page title
+- Meta description
+- Canonical URL
+- Open Graph title
+- Open Graph description
+- Open Graph image
+- Twitter/X card metadata
+- Favicon
+- robots.txt
+- Sitemap
+
+### Structured data
+
+Use appropriate Organization schema with verified information only.
+
+Do not invent:
+- Address
+- Phone number
+- Registration information
+- Social profiles
+- Founding dates
+
+Configure canonical URLs using the actual deployment environment.
+
+---
+
+# PART 12 — GITHUB PAGES DEPLOYMENT
+
+The website will initially be hosted on GitHub Pages.
+
+### Requirements
+
+Use:
+- GitHub repository
+- GitHub Actions
+- Astro static build
+- GitHub Pages deployment
+
+### Deployment workflow
+
+The workflow should:
+1. Check out the repository.
+2. Set up Node.js.
+3. Install dependencies using npm ci.
+4. Run validation checks.
+5. Build the Astro project.
+6. Upload the generated static artifact.
+7. Deploy using the supported GitHub Pages action.
+
+Use minimal necessary GitHub Actions permissions.
+
+Pin actions to appropriate stable versions or immutable commits.
+
+### URL handling
+
+Support both:
+
+Project-based hosting:
+`https://USERNAME.github.io/increo-website/`
+
+Future custom domain:
+`https://YOURDOMAIN.com/`
+
+Do not hardcode a fictional GitHub username.
+
+Use Astro's site and base configuration correctly.
+
+All navigation, images, scripts, CSS, and canonical links must work under the project base path.
+
+### Deployment restrictions
+
+Do not push to production or deploy without explicit approval.
+
+Prepare the workflow and documentation.
+
+---
+
+# PART 13 — SECURITY
+
+Apply practical security best practices.
+
+- Never commit private credentials.
+- Do not expose secret environment variables.
+- Use HTTPS.
+- Validate form inputs.
+- Avoid unnecessary third-party scripts.
+- Use safe external links.
+- Avoid unsafe HTML injection.
+- Keep dependencies maintained.
+- Do not introduce backend endpoints without approval.
+- Document the privacy implications of analytics and third-party forms.
+
+Do not add Google Analytics or tracking scripts until an analytics provider and privacy approach are approved.
+
+---
+
+# PART 14 — CONTENT AND ASSET MANAGEMENT
+
+Content should be easy to update.
+
+Store:
+- Navigation
+- Platform information
+- Technology descriptions
+- Company information
+
+in structured data files where appropriate.
+
+### Images
+
+Prefer:
+1. Approved real Increo imagery
+2. Approved CAD renders
+3. Licensed conceptual artwork
+4. Clearly labeled temporary placeholders
+
+Do not use competitor imagery.
+
+Do not fabricate product specifications.
+
+Do not represent AI-generated or conceptual imagery as actual operational hardware.
+
+### Missing assets
+
+If an asset is missing:
+- Continue with a temporary placeholder.
+- Preserve correct layout and image dimensions.
+- Document the replacement required.
+- Keep the placeholder easy to replace.
+
+Do not block the entire project because a photograph or logo is unavailable.
+
+---
+
+# PART 15 — REQUIRED DOCUMENTATION
+
+Create the following files.
+
+## README.md
+
+Include:
+- Project overview
+- Technology stack
+- Installation
+- Local development
+- Production build
+- Environment variables
+- Project structure
+- Deployment overview
+
+## AGENTS.md
+
+Document:
+- Project conventions
+- Architecture
+- Styling rules
+- Typography
+- Content restrictions
+- Component practices
+- Testing requirements
+- Deployment rules
+
+This file should guide future Codex sessions.
+
+## DESIGN_SYSTEM.md
+
+Document:
+- Brand colors
+- Typography
+- Spacing
+- Breakpoints
+- Buttons
+- Navigation
+- Animation principles
+- Section layouts
+- Accessibility rules
+
+## CONTENT_GUIDELINES.md
+
+Document:
+- Approved-content requirements
+- Technical-claim restrictions
+- Conceptual-image labeling
+- Product-content structure
+- Missing information
+
+## DEPLOYMENT.md
+
+Document:
+- GitHub Pages setup
+- GitHub Actions configuration
+- Environment variables
+- Formspree configuration
+- Custom domain setup
+- Future hosting migration
+
+## .env.example
+
+Include only safe example variables.
+
+Never include actual private credentials.
+
+---
+
+# PART 16 — TESTING AND QUALITY ASSURANCE
+
+Before declaring the implementation complete:
+
+### Code checks
+
+Run:
+- TypeScript validation
+- Astro checks
+- Production build
+- Available linting checks
+
+### Functional checks
+
+Verify:
+- Navigation links
+- Anchor scrolling
+- Mobile menu
+- Buttons
+- Contact form validation
+- Formspree submission when configured
+- Form error handling
+- Responsive images
+- Footer links
+
+### Visual checks
+
+Inspect:
+- Mobile
+- Tablet
+- Desktop
+
+Pay special attention to:
+- Typography
+- Hero composition
+- Alignment
+- Spacing
+- Contrast
+- Image quality
+- Section transitions
+- Visual consistency
+
+### Accessibility checks
+
+Verify:
+- Keyboard navigation
+- Focus states
+- Form labels
+- Semantic structure
+- Reduced-motion behavior
+- Accessible menu interactions
+
+### Performance checks
+
+Run Lighthouse or equivalent tooling if available.
+
+Fix significant issues.
+
+Do not claim a test passed unless it actually ran.
+
+If browser automation or visual testing is unavailable, explicitly document what remains unverified.
+
+---
+
+# PART 17 — DEVELOPMENT WORKFLOW
+
+Follow this execution sequence.
+
+## STEP 1 — Inspect repository
+
+Check:
+- Existing files
+- Package configuration
+- Assets
+- Font files
+- Existing source code
+- Git status
+
+Do not overwrite existing work unnecessarily.
+
+## STEP 2 — Initialize architecture
+
+Set up:
+- Astro
+- TypeScript
+- Tailwind CSS
+- GSAP
+- Project structure
+- Development scripts
+
+## STEP 3 — Implement design system
+
+Create:
+- Brand tokens
+- Typography
+- Global styles
+- Buttons
+- Section containers
+- Technical patterns
+- Responsive utilities
+
+## STEP 4 — Establish visual foundation
+
+Implement:
+- Header
+- Navigation
+- Hero
+- Typography
+- Core layout
+
+Review internally for visual consistency.
+
+Do not stop here.
+
+## STEP 5 — Build entire homepage
+
+Implement every homepage section.
+
+Do not leave incomplete sections.
+
+## STEP 6 — Add functionality
+
+Implement:
+- Mobile menu
+- Anchor navigation
+- GSAP animations
+- Formspree integration
+- Form validation
+
+## STEP 7 — Optimize
+
+Improve:
+- Responsive behavior
+- Image loading
+- Accessibility
+- SEO
+- Performance
+
+## STEP 8 — Configure deployment
+
+Create:
+- GitHub Actions workflow
+- Astro site/base configuration
+- Deployment documentation
+
+Do not deploy yet.
+
+## STEP 9 — Validate
+
+Run available checks.
+
+Fix errors.
+
+## STEP 10 — Final review
+
+Review the website as:
+- Creative Director
+- Frontend Engineer
+- UX Designer
+- Accessibility Engineer
+- Performance Engineer
+
+Identify and fix problems before completion.
+
+---
+
+# PART 18 — FINAL DELIVERABLES
+
+The final implementation must include:
+
+1. Complete responsive homepage.
+2. All eight homepage sections.
+3. Functional navigation.
+4. Responsive mobile menu.
+5. Static hero imagery.
+6. Brand typography and colors.
+7. Platform showcase.
+8. Technology showcase.
+9. Engineering philosophy section.
+10. Formspree inquiry interface and integration.
+11. Footer.
+12. SEO metadata.
+13. Accessibility features.
+14. Performance optimizations.
+15. GitHub Pages deployment workflow.
+16. Reusable component architecture.
+17. Project documentation.
+18. Configuration instructions.
+19. Test results.
+20. List of remaining approvals or missing assets.
+
+---
+
+# PART 19 — FINAL ACCEPTANCE CRITERIA
+
+The homepage is complete only if:
+
+- It looks professionally designed.
+- It does not resemble a generic template.
+- All eight sections are implemented.
+- It is fully responsive.
+- Navigation works.
+- The form is correctly integrated or explicitly awaiting configuration.
+- No fake information is published.
+- No unlicensed competitor assets are used.
+- No unfinished links remain.
+- The project builds successfully.
+- GitHub Pages configuration is ready.
+- Documentation is complete.
+- Remaining blockers are clearly identified.
+
+A successful build alone is not sufficient.
+
+The website must also meet the expected visual and user-experience quality.
+
+---
+
+# PART 20 — FINAL EXECUTION INSTRUCTIONS
+
+You have authorization to create and modify files inside the website repository to complete this task.
+
+Do not stop after writing a plan.
+
+Do not stop after implementing the hero.
+
+Do not stop after creating components without integrating them.
+
+Do not ask for approval between ordinary implementation steps.
+
+Make reasonable engineering decisions where details are unspecified.
+
+When a decision affects legal compliance, public company claims, credentials, licensing, or deployment, document it and request approval rather than inventing information.
+
+Complete the entire homepage implementation, perform available checks, and provide the final results.
+
+Do not push to production or publish the website without explicit authorization.
+
+At completion, provide:
+
+**A. Implementation summary**
+
+Explain what was built.
+
+**B. File structure**
+
+Show the important project files.
+
+**C. Testing results**
+
+State which checks actually passed.
+
+**D. Preview instructions**
+
+Explain how to run and review the website locally.
+
+**E. Deployment instructions**
+
+Explain what is required to publish on GitHub Pages.
+
+**F. Remaining requirements**
+
+List missing assets, licensing approvals, business information, and Formspree configuration.
+
+**G. Recommended improvements**
+
+Identify any refinements worth considering before public launch.
+
+## FINAL OBJECTIVE
+
+Build a complete, visually outstanding, high-performance homepage for **Increo Dynamics Private Limited**.
+
+The website should communicate advanced engineering, autonomous systems, technological sophistication, and corporate credibility.
+
+It must combine the visual quality expected from a premium aerospace company with clean architecture, excellent responsiveness, strong accessibility, and reliable functionality.
+
+**BUILD THE COMPLETE WEBSITE HOMEPAGE NOW. DO NOT ONLY DESCRIBE HOW TO BUILD IT.**
