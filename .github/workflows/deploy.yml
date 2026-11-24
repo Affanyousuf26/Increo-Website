@@ -29,6 +29,9 @@ jobs:
         run: npm ci
       - name: Validate and build
         run: npm run build
+        env:
+          PUBLIC_FORMSPREE_ENDPOINT: ${{ vars.PUBLIC_FORMSPREE_ENDPOINT || secrets.PUBLIC_FORMSPREE_ENDPOINT }}
+          SITE_URL: ${{ vars.SITE_URL || secrets.SITE_URL }}
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
